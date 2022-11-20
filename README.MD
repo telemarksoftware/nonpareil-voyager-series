@@ -14,9 +14,9 @@ This repository is free for personal use, but any part including graphic images 
 
 Hewlett-Packard Voyager Series, Retina Graphics Interface & Enhancements, Copyright © 2022 Mark H. Shin, All Rights Reserved.
 
-This work is based on Nonpareil 0.77 for Linux, by Eric Smith (Copyright 2004-2006 Eric Smith), the original developer of Nonpareil.
+This work is based on Nonpareil 0.77 for Linux, by Eric Smith (Copyright 2004-2006 Eric Smith), the original developer of [Nonpareil](https://github.com/brouhaha/nonpareil).
 
-Additionally, the work of Maciej Bartosiak who originally ported Nonpareil to the Mac desktop, based on nonpareil for MacOS (Copyright 2005-2012 Maciej Bartosiak).
+Additionally, the work of Maciej Bartosiak who originally ported Nonpareil to the Mac desktop, based on [nonpareil for MacOS](https://github.com/mbamac/nonpareil) (Copyright 2005-2012 Maciej Bartosiak).
 
 Significant assistance by Alex Garza of the HP Museum Forum, who was kind enough to share his HP-10C display segment map.
 
