@@ -51,7 +51,9 @@ The entire keyboard for each calculator was implemented using a self-customized 
 
 The display's digit segments and punctuations are drawn using Bezier paths and distributed across the display.  In the code, the Bezier paths are filled as required to render each digit and punctuation.
 
-The annunciators are drawn as text using HP Helvetica font.  Of note is the low battery indicator, which is never actually displayed in these simulations, is the Unicode Heavy Asterisk (U+2731) character.
+The annunciators are drawn as text using HP Helvetica font.  It was determined the annunicators would render better at that size using a font rather than filled Bezier paths.
+
+Of note is the low battery indicator, which is never actually displayed in these simulations, is the Unicode Heavy Asterisk (U+2731) character.
 
 ![alt text](./assets/display-segments.png)
 
