@@ -73,7 +73,7 @@ You'll also notice a very subtle drop shaddow for the LCD display segments.
 
 ## Get Up & Running
 
-Download the desired calculator release, and unpackage.
+Download the desired calculator release, unpackage, and run.
 
 ## Development Platform
 
