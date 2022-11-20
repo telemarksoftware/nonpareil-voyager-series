@@ -2,19 +2,21 @@
 
 This repository is the home of Nonpareil Voyager Series.  A simulation of the Hewlett-Packard Voyager Series calculators for the macOS desktop.
 
-## Copyright
+This repository is comprised of the macOS Universal Binaries only.  Minimum macOS version is 10.9.
+
+## Acknowlegements
 
 Hewlett-Packard Voyager Series, Retina Graphics Interface & Enhancements, Copyright © 2022 Mark H. Shin, All Rights Reserved.
-
-This release is comprised of the macOS Universal Binaries Only.  Minimum macOS version is 10.9.
 
 This work is based on Nonpareil 0.77 for Linux, (Copyright 2004-2006 Eric Smith), the original developer of Nonpareil.
 
 Additionally, the work of Maciej Bartosiak who originally ported Nonpareil to the Mac desktop, based on nonpareil for MacOS (Copyright 2005-2012 Maciej Bartosiak).
 
+Significant assistance by Alex Garza of the HP Museum Forum, who provided the HP-10C segment map.
+
 ## Models
 
-The following models have been implemented:
+The following Voyager Series models have been implemented:
 ```
 HP-10C Scientific Calculator
 ```
@@ -39,11 +41,11 @@ HP-16C Computer Scientist
 
 ## Implementation
 
-The display's digit segments and punctuations are drawn using Bezier paths and distributed across the display.  In the code, the Bezier segments are filled as required to render each digit and punctuation.
+The display's digit segments and punctuations are drawn using Bezier paths and distributed across the display.  In the code, the Bezier segment paths are filled as required to render each digit and punctuation.
 
 The annunciators are drawn as text using HP Helvetica font.
 
-The shape of the digits are derived directly fron an engineering drawing of the HP Voyager display.
+The shape of the digits are derived directly from an engineering drawing of the HP Voyager display.
 ```
 Kinpo Electronics, Inc. BF12A LCD Engineering Drawing
 ```
@@ -68,6 +70,20 @@ Input via the numeric keypad is supported.
 The 'O' key can be used as the ON key.
 The ',' key can be used to switch digit separator.
 The '.' key can be used to switch digit separator.
+
+Additional options are:
+```
+Command K
+```
+Toggle button press sound.
+```
+Command +
+```
+Increase LCD display contrast.
+```
+Command -
+```
+Decrease LCD display contrast.
 
 ## Self-Tests
 
