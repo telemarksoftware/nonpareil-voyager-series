@@ -47,6 +47,8 @@ HP-16C Computer Scientist
 
 The entire keyboard for each calculator was implemented using a self-customized version of the official HP Voyager Series keyboard font.
 
+Keyboard font study in Adobe Illustrator:
+
 ![alt text](./assets/keys-study-ai.png)
 
 The display's digit segments and punctuations are drawn using Bezier paths and distributed across the display.  In the code, the Bezier paths are filled as required to render each digit and punctuation.
