@@ -71,7 +71,7 @@ Notes:  Apparently, this was an early draft in the process of final approval.  I
 
 Download the desired calculator release, and unpackage.
 
-## Implementation
+## Development Platform
 
 Xcode XIB user interface with C and Objective-C languages.
 
