@@ -2,6 +2,8 @@
 
 This repository is the home of Nonpareil Voyager Series.  A simulation of the Hewlett-Packard Voyager Series calculators for the macOS desktop.
 
+The simulator reads into its simulated ROM memory, the actual original HP microcode of each calculator.  Then the Nut processor is started to begin the calculator simulation.
+
 This repository is comprised of the macOS Universal Binaries only.  Minimum macOS version is 10.9.
 
 This is not a product of Hewlett-Packard or its affiliates.
