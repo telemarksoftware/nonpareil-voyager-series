@@ -57,7 +57,7 @@ The annunciators are drawn as text using HP Helvetica font.  It was determined t
 
 Of note is the low battery indicator, which is never actually displayed in these simulations, is the Unicode Heavy Asterisk (U+2731) character.
 
-![alt text](./assets/display-segments.png)
+![alt text](./assets/display-lcd.png)
 
 The shape of the digit segments are derived directly from an engineering drawing of the HP Voyager display.
 ```
