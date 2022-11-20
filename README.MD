@@ -4,6 +4,10 @@ This repository is the home of Nonpareil Voyager Series.  A simulation of the He
 
 This repository is comprised of the macOS Universal Binaries only.  Minimum macOS version is 10.9.
 
+This is not a product of Hewlett-Packard or its affiliates.
+
+This repository is free for personal use, but any part including graphic images may not be used or incorporated into other products for commercial use. 
+
 ## Acknowlegements
 
 Hewlett-Packard Voyager Series, Retina Graphics Interface & Enhancements, Copyright © 2022 Mark H. Shin, All Rights Reserved.
@@ -41,9 +45,9 @@ HP-16C Computer Scientist
 
 ## Implementation
 
-The entire keyboard was implemented using a self-customized version of the official HP Voyager Series keys font. 
+The entire keyboard for each calculator was implemented using a self-customized version of the official HP Voyager Series keyboard font. 
 
-The display's digit segments and punctuations are drawn using Bezier paths and distributed across the display.  In the code, the Bezier segment paths are filled as required to render each digit and punctuation.
+The display's digit segments and punctuations are drawn using Bezier paths and distributed across the display.  In the code, the Bezier paths are filled as required to render each digit and punctuation.
 
 The annunciators are drawn as text using HP Helvetica font.  Of note is the low battery indicator, which is never actually displayed in these simulations, is the Unicode Heavy Asterisk (U+2731) character.
 
@@ -77,7 +81,7 @@ Additional options are:
 ```
 Command K
 ```
-Toggle button press sound.
+Toggle key click button press sound.
 ```
 Command +
 ```
