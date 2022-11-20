@@ -73,7 +73,7 @@ Download the desired calculator release, and unpackage.
 
 ## Development Platform
 
-Xcode XIB user interface with C and Objective-C languages.
+Xcode XIB user interface, Cocoa framework with Objective-C and C languages.
 
 ## Some usage notes
 
