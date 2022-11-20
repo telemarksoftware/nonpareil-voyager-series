@@ -65,7 +65,7 @@ Kinpo Electronics, Inc. BF12A LCD Engineering Drawing
 ```
 ![alt text](./assets/kinpo-display.png)
 
-Notes:  Apparently, this was an early draft in the process of final approval.  If you look closely, the annunicators are positioned slight off, compared to the original.
+Notes:  Apparently, this was an early draft in the process of final approval.  If you look closely, the annunicators are positioned slightly off, compared to the production models.
 
 ## Get Up & Running
 
