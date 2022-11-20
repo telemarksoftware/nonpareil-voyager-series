@@ -69,7 +69,7 @@ Kinpo Electronics, Inc. BF12A LCD Engineering Drawing
 
 Notes:  Apparently, this was an early draft in the process of final approval.  If you look closely, the annunicators are positioned slightly off, compared to the production models.
 
-You'll also notice a very subtle drop shaddow for the LCD display segments.
+You'll also notice a very subtle drop shadow for the LCD display segments.
 
 ## Get Up & Running
 
