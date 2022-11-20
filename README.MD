@@ -41,11 +41,13 @@ HP-16C Computer Scientist
 
 ## Implementation
 
+The entire keyboard was implemented using a self-customized version of the official HP Voyager Series keys font. 
+
 The display's digit segments and punctuations are drawn using Bezier paths and distributed across the display.  In the code, the Bezier segment paths are filled as required to render each digit and punctuation.
 
-The annunciators are drawn as text using HP Helvetica font.
+The annunciators are drawn as text using HP Helvetica font.  Of note is the low battery indicator, which is never actually displayed in these simulations, is the Unicode Heavy Asterisk (U+2731) character.
 
-The shape of the digits are derived directly from an engineering drawing of the HP Voyager display.
+The shape of the digit segments are derived directly from an engineering drawing of the HP Voyager display.
 ```
 Kinpo Electronics, Inc. BF12A LCD Engineering Drawing
 ```
@@ -59,7 +61,7 @@ Download the desired calculator release, and unpackage.
 
 ## Implementation
 
-Xcode XIB user interface with C and Objective-C language.
+Xcode XIB user interface with C and Objective-C languages.
 
 ## Some usage notes
 
