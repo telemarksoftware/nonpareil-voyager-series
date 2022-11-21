@@ -49,6 +49,8 @@ HP-16C Computer Scientist
 
 ## Implementation
 
+You'll also notice a very subtle drop shadow for the LCD display segments and annunciators, and of course working pressed buttons.
+
 The entire keyboard for each calculator was implemented using a self-customized version of the official HP Voyager Series keyboard font.
 
 Keyboard font study in Adobe Illustrator:
@@ -67,8 +69,6 @@ The shape of the digit segments are derived directly from an engineering drawing
 ```
 Kinpo Electronics, Inc. BF12A LCD Engineering Drawing
 ```
-
-You'll also notice a very subtle drop shadow for the LCD display segments, and of course working pressed buttons.
 
 ## Get Up & Running
 
