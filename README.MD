@@ -8,7 +8,7 @@ This repository is comprised of the macOS Universal Binaries only.  Minimum macO
 
 This is not a product of Hewlett-Packard or its affiliates.
 
-## Copyright
+## Copyright © 2022 telemark software, llc.  All rights reserved.
 
 This repository is free for personal use, but any part, including but not limited to graphic images may not be used or incorporated into any other product for commercial use. 
 
