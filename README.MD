@@ -10,7 +10,7 @@ This is not a product of Hewlett-Packard or its affiliates.
 
 ## Copyright © 2022 telemark software, llc.  All rights reserved.
 
-This repository is free for personal use, but any part, including but not limited to graphic images may not be used or incorporated into any other product for commercial use. 
+This repository is free for personal use, but any part, including but not limited to graphic images may not be used or incorporated into any product for commercial use. 
 
 ## Acknowlegements
 
