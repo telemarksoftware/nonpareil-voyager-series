@@ -69,6 +69,9 @@ The shape of the digit segments are derived directly from an engineering drawing
 ```
 Kinpo Electronics, Inc. BF12A LCD Engineering Drawing
 ```
+![alt text](./assets/kinpo-display.png)
+
+Notes:  Apparently, this was an early draft in the process of final approval.  If you look closely, the annunicators positioning is slightly off, compared to the production models.
 
 ## Get Up & Running
 
