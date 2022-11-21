@@ -57,7 +57,7 @@ Keyboard font study in Adobe Illustrator:
 
 The display's digit segments and punctuations are drawn using Bezier paths and distributed across the display.  In the code, the Bezier paths are filled as required to render each digit and punctuation.
 
-The annunciators are drawn as text using HP Helvetica font.  It was determined the annunicators would render better at that size using a font rather than filled Bezier paths.
+The annunciators are drawn as text using HP Helvetica font.  It was determined the annunicators would render better at the required size using a font rather than filled Bezier paths.
 
 Of note is the low battery indicator, which is never actually displayed in these simulations.  It appears quite similar to the Unicode Heavy Asterisk (U+2731) character in the drawing, but the production models display a distinctly thinner version.
 
