@@ -59,7 +59,7 @@ The display's digit segments and punctuations are drawn using Bezier paths and d
 
 The annunciators are drawn as text using HP Helvetica font.  It was determined the annunicators would render better at that size using a font rather than filled Bezier paths.
 
-Of note is the low battery indicator, which is never actually displayed in these simulations, looks like the Unicode Heavy Asterisk (U+2731) character in the drawing, but the production models display a distinctly thinner version.
+Of note is the low battery indicator, which is never actually displayed in these simulations.  It appears quite similar to the Unicode Heavy Asterisk (U+2731) character in the drawing, but the production models display a distinctly thinner version.
 
 ![alt text](./assets/display-lcd.png)
 
