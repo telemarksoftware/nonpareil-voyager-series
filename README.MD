@@ -20,7 +20,7 @@ This work is based on Nonpareil 0.77 for Linux, by Eric Smith (Copyright 2004-20
 
 Additionally, the work of Maciej Bartosiak who originally ported Nonpareil to the Mac desktop, based on [nonpareil for MacOS](https://github.com/mbamac/nonpareil) (Copyright 2005-2012 Maciej Bartosiak).
 
-Significant assistance by Alex Garza of the HP Museum Forum, who was kind enough to share his HP-10C display segment map.
+Significant assistance by Alex Garza of the [HP Museum Forum](https://www.hpmuseum.org/forum/index.php), who was kind enough to share his HP-10C display segment map.
 
 ## Models
 
