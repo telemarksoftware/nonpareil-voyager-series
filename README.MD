@@ -51,7 +51,7 @@ HP-16C Computer Scientist
 
 Notice a very subtle drop shadow for the LCD display segments and annunciators, and of course working pressed buttons.
 
-The entire keyboard for each calculator was implemented using a self-customized version of the official HP Voyager Series keyboard font.
+The entire keyboard for each calculator was implemented using a customized version of the HP Voyager Series keyboard font.
 
 Keyboard font study in Adobe Illustrator:
 
