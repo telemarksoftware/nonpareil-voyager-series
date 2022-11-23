@@ -57,7 +57,7 @@ Keyboard font study in Adobe Illustrator:
 
 ![alt text](./assets/keys-study-ai.png)
 
-The display's digit segments and punctuations are drawn using Bezier paths and distributed across the display.  The simulator fills the Bezier paths of each segment based on the values of Register 9 & Register 10 of the Voyager's R2D2 controller, rendering each digit and punctuation.
+The display's digit segments and punctuations are drawn using closed Bezier paths and distributed across the display.  The simulator fills the Bezier paths of each segment based on the values of Register 9 & Register 10 of the Voyager's R2D2 controller, rendering each digit and punctuation.
 
 The annunciators are drawn as text using HP Helvetica font.  It was determined the annunicators would render better at the required size using a font rather than filled Bezier paths.
 
