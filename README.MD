@@ -113,7 +113,7 @@ Pressing 'O' and '*' (on numeric keypad) simultaneously will perform a compelete
 
 Pressing 'O' and '/' (on numeric keypad) simultaneously will perform the keyboard test in which each key on each row is pressed in succession (Enter key is pressed once for row 3 and again for row 4).  The model number of the calculator should be displayed upon success completion.
 
-On a Mac with Retina 5K display, the calculator interface is absolutely stunning!
+On the iMac Pro with Retina 5K display, the calculator interface is absolutely stunning!
 
 Enjoy!
 
