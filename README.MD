@@ -90,8 +90,8 @@ The first time the calculator is run, you will need to turn it on using the ON b
 Input via the numeric keypad is supported.
 ```
 The 'O' key can be used as the ON key.
-The ',' key can be used to switch digit separator.
-The '.' key can be used to switch digit separator.
+The 'O' + ',' key can be used to toggle digit separator.
+The 'O' + '.' key can be used to toggle digit separator.
 ```
 Additional options are:
 ```
@@ -109,9 +109,9 @@ Decrease LCD display contrast.
 
 ## Self-Tests
 
-Pressing 'O' and '*' (on numeric keypad) simultaneously will perform a compelete self-test in which all segments/annunicators should be displayed upon successful completion.
+Pressing 'O' + '*' (on numeric keypad) simultaneously will perform a compelete self-test in which all segments/annunicators should be displayed upon successful completion.
 
-Pressing 'O' and '/' (on numeric keypad) simultaneously will perform the keyboard test in which each key on each row is pressed in succession (Enter key is pressed once for row 3 and again for row 4).  The model number of the calculator should be displayed upon success completion.
+Pressing 'O' + '/' (on numeric keypad) simultaneously will perform the keyboard test in which each key on each row is pressed in succession (Enter key is pressed once for row 3 and again for row 4).  The model number of the calculator should be displayed upon success completion.
 
 On the iMac Pro with Retina 5K display, the calculator interface is absolutely stunning!
 
