@@ -111,7 +111,7 @@ Decrease LCD display contrast.
 
 Pressing 'O' + '*' (on numeric keypad) simultaneously will perform a compelete self-test in which all segments/annunicators should be displayed upon successful completion.
 
-Pressing 'O' + '/' (on numeric keypad) simultaneously will perform the keyboard test in which each key on each row is pressed in succession (Enter key is pressed once for row 3 and again for row 4).  The model number of the calculator should be displayed upon success completion.
+Pressing 'O' + '/' (on numeric keypad) simultaneously will perform the keyboard test in which each key on each row is pressed in succession (Enter key is pressed once for row 3 and again for row 4).  The model number of the calculator should be displayed upon successful completion.
 
 On the iMac Pro with Retina 5K display, the calculator interface is absolutely stunning!
 
