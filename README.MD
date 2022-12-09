@@ -12,8 +12,6 @@ This is not a product of Hewlett-Packard or its affiliates.
 
 This repository is governed by the GPL v3.0 license template as contained within LICENSE.MD.
 
-Note that I am not granting permission to redistribute or modify Nonpareil Voyager Series under the terms of any later version of the General Public License.
-
 ## Acknowlegements
 
 Hewlett-Packard Voyager Series, Retina Graphics Interface & Enhancements, Copyright © 2022 Mark H. Shin, All Rights Reserved.
