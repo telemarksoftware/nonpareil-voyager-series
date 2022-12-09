@@ -4,13 +4,13 @@ This repository is the home of Nonpareil Voyager Series.  A simulation of the He
 
 The simulator reads into its simulated ROM memory, the original HP microcode of each calculator.  Then the Nut processor is started to begin the calculator simulation.
 
-This repository is comprised of the macOS Universal Binaries only.  Minimum macOS version is 10.9.
+This repository is comprised of the Xcode project files and pre-built macOS Universal Binaries.  Minimum macOS version is 10.9.
 
 This is not a product of Hewlett-Packard or its affiliates.
 
 ## Copyright © 2022 telemark software, llc.  All rights reserved.
 
-This repository is free for personal use, but any part including but not limited to graphic images may not be used or incorporated into any product for commercial use. 
+This repository is governed by the GPL v2.0 license. 
 
 ## Acknowlegements
 
