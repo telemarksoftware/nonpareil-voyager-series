@@ -1,5 +1,5 @@
 # nonpareil-voyager-series
-nonpareil-voyager-series is a set of MacOS applications which simulate the Hewlett-Packard Voyager Series calculators.
+nonpareil-voyager-series is a set of macOS applications which simulate the Hewlett-Packard Voyager Series calculators.
 
 
 # nonpareil for os x
@@ -7,6 +7,7 @@ nonpareil-voyager-series is a set of MacOS applications which simulate the Hewle
 for OS X is based on [nonpareil 0.77 for Linux](http://http://nonpareil.brouhaha.com/) - a micro-assembler
 and simulator package written originally for Linux by Eric Smith.
 
+#nonpareil
 *nonpareil* is made available under the terms of the Free Software Foundation's
 [General Public License, Version 2](http://www.gnu.org/licenses/gpl.html).
 
@@ -14,11 +15,6 @@ and simulator package written originally for Linux by Eric Smith.
 
 
 # Enhancements by Mark H. Shin
-
-I present to you what HP should have done with the Voyager Series for the desktop...
-
-
-
 
 Retina graphics interface created via high resolution rendered images in Photoshop 2022.
 
