@@ -77,7 +77,7 @@ Notes:  Apparently, this was an early draft in the process of final approval.  T
 
 ## Get Up & Running
 
-Download the desired calculator release, unpackage, and run.
+Download the desired calculator release, unpackage, and run.  Or download the Xcode source and build your very own macOS application!
 
 ## Development Platform
 
