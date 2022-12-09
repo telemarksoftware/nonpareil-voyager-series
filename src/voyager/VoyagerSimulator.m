@@ -121,7 +121,6 @@ typedef struct
 	{	// Temporarily using 10C ROM for testing display...
 #ifdef NONPAREIL_10C
 		// Added by Mark H. Shin.  Copyright © 2022 telemark software®
-		/* for all unused annunciators, unless it is used for specifically for the 10C, use unused reg/nibble/bit: {0, 3, 4}.  Annunicators will still display after self-test! */
 		/* Credit:  agarza (Alex Garza <agarza@paxer.net>) on hpmuseum.org forum for the mapping! */
 		/* leftmost position has only segment g for a minus */
 		/*    a           b           c           d           e           f          g            h           i           j    */	/* ANNUNCIATORS! */
