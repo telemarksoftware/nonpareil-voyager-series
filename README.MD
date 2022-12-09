@@ -10,13 +10,13 @@ This is not a product of Hewlett-Packard or its affiliates.
 
 ## Copyright © 2022 telemark software, llc.  All rights reserved.
 
-This repository is governed by the GPL v3.0 license.  Note that I am not granting permission to redistribute or modify this release under the terms of any later version of the General Public License.
+This repository is governed by the GPL v3.0 license.
 
 ## Acknowlegements
 
 Hewlett-Packard Voyager Series, Retina Graphics Interface & Enhancements, Copyright © 2022 Mark H. Shin, All Rights Reserved.
 
-This work is based on Nonpareil 0.77 for Linux, by Eric Smith (Copyright 2004-2006 Eric Smith. Note that Eric Smith is not granting permission to redistribute or modify Nonpareil under the terms of any later version of the General Public License.), the original developer of [Nonpareil](https://github.com/brouhaha/nonpareil).  
+This work is based on Nonpareil 0.77 for Linux, by Eric Smith (Copyright 2004-2006 Eric Smith, the original developer of [Nonpareil](https://github.com/brouhaha/nonpareil).  
 
 Additionally, the work of Maciej Bartosiak who originally ported Nonpareil to the Mac desktop, based on [nonpareil for MacOS](https://github.com/mbamac/nonpareil) (Copyright 2005-2012 Maciej Bartosiak).
 
