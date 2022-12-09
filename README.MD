@@ -10,7 +10,7 @@ This is not a product of Hewlett-Packard or its affiliates.
 
 ## Copyright © 2022 telemark software, llc.  All rights reserved.
 
-This repository is governed by the GPL v3.0 license template as contained within LICENSE.MD.
+This repository is governed by the GPL v3.0 license template as contained within LICENSE.MD.  Note that I am not granting permission to redistribute or modify Nonpareil Voyager Series under the terms of any later version of the General Public License.
 
 ## Acknowlegements
 
