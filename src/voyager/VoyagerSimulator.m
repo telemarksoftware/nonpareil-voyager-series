@@ -180,12 +180,14 @@ typedef struct
 				}
 			}
 		}
+		// Added by Mark H. Shin.  Copyright © 2022 telemark software®
 		// Determine if annunciator has changed.
 		if ((display_segments[digit]&SEGMENT_ANN) != (segs&SEGMENT_ANN) && (cpu->kb_state == (keyboard_state_t)KB_IDLE)) {
 			//NSLog(@"display_segments[%d]=%d segs=%d cpu->kb_state=%d",digit,display_segments[digit],segs&SEGMENT_ANN,cpu->kb_state);
 			//NSLog(@"digit=%d cpu->ram[9 + %d]=%d",digit,vreg,cpu->ram[9 + vreg]);
 			display.ann_update = YES;
 		}
+		// Added by Mark H. Shin.  Copyright © 2022 telemark software®
 		// Only update if segs is different from current digit.  *** Not Fully Implemented ***
 #if defined(NONPAREIL_12C) || defined(NONPAREIL_12CP) || 1
 		if (display_segments[digit] != segs) {
@@ -257,13 +259,13 @@ typedef struct
 #endif
 		// First time POWER ON initializations
 
-		// Initialize default key click state.
+		// Initialize default key click state.  Added by Mark H. Shin.  Copyright © 2022 telemark software®
 		self.keyClick = [[[[[[[NSApp mainMenu] itemAtIndex:0] submenu] itemAtIndex:2] submenu] itemAtIndex:0] state];
 
-		// Initialize default display blink state.
+		// Initialize default display blink state.  Added by Mark H. Shin.  Copyright © 2022 telemark software®
 		self.displayBlink = [[[[[[[NSApp mainMenu] itemAtIndex:0] submenu] itemAtIndex:2] submenu] itemAtIndex:1] state];
 
-		// Set default contrast value
+		// Set default contrast value.  Added by Mark H. Shin.  Copyright © 2022 telemark software®
 		self.contrast = 3;
 
 		return;
@@ -332,15 +334,15 @@ typedef struct
 	cpu->display_chip->blink_state	= (bool)[[stateDict objectForKey:@"display_chip->blink_state"] boolValue];
 	cpu->display_chip->blink_count	= (int)[[stateDict objectForKey:@"display_chip->blink_count"] intValue];
 
-	// Key Click state
+	// Key Click state.  Added by Mark H. Shin.  Copyright © 2022 telemark software®
 	self.keyClick = (bool)[[stateDict objectForKey:@"keyClick"] boolValue];
 	[[[[[[[NSApp mainMenu] itemAtIndex:0] submenu] itemAtIndex:2] submenu] itemAtIndex:0] setState:self.keyClick];
 
-	// Display Blink state
+	// Display Blink state.  Added by Mark H. Shin.  Copyright © 2022 telemark software®
 	self.displayBlink = (bool)[[stateDict objectForKey:@"displayBlink"] boolValue];
 	[[[[[[[NSApp mainMenu] itemAtIndex:0] submenu] itemAtIndex:2] submenu] itemAtIndex:1] setState:self.displayBlink];
 
-	// Contrast state
+	// Contrast state.  Added by Mark H. Shin.  Copyright © 2022 telemark software®
 	self.contrast = (int)[[stateDict objectForKey:@"displayContrast"] intValue];
 }
 

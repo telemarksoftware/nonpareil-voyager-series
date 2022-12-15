@@ -779,6 +779,7 @@ static void op_g_to_c (cpu_t *nut_reg, int opcode)
     
 }
 
+// Copyright © 2022 Eric Smith.  Added by Mark H. Shin.  Copyright © 2022 telemark software®
 static void swap_digit(digit_t *a, digit_t *b)
 {
   digit_t t;
@@ -788,6 +789,7 @@ static void swap_digit(digit_t *a, digit_t *b)
   *b = t;
 }
 
+// Copyright © 2022 Eric Smith.  Added by Mark H. Shin.  Copyright © 2022 telemark software®
 static void op_c_exch_g (cpu_t *nut_reg, int opcode)
 {
 	int low_digit_index = *pt (nut_reg);

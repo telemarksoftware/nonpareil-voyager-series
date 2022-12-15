@@ -52,11 +52,12 @@
 				  digitStroke: 3.5
 					dotOffset: 3.5];
 	
-	// Initialize click sound
+	// Initialize click sound.  Added by Mark H. Shin.  Copyright © 2022 telemark software®
 	NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"iosClick" ofType:@"m4a"];
 	keyClick = [[NSSound alloc] initWithContentsOfFile:soundPath byReference:YES];
 	[keyClick setVolume:0.15];
 
+	// Added by Mark H. Shin.  Copyright © 2022 telemark software®
 	// Initialize default contrast state.  This connects a bridge from saved state of VoyagerSimulator to VoyagerDisplayView.
 	simulator.display.contrast = simulator.contrast;
 
@@ -72,14 +73,16 @@
 	[keyQueue insertObject:[NSNumber numberWithInteger: [sender tag]] atIndex:0];
 	[keyQueue insertObject:[NSNumber numberWithInt: -1] atIndex:0];
 
-	// Check status of keyClick and ON state.
+	// Check status of keyClick and ON state.  // Added by Mark H. Shin.  Copyright © 2022 telemark software®
 	if (simulator.keyClick && [simulator awake])
 		[keyClick play];
 
+	// Added by Mark H. Shin.  Copyright © 2022 telemark software®
 	// Button is now in the ON state displaying alternate image.  Set timer to reset button state...
 	keyTimer = [NSTimer scheduledTimerWithTimeInterval:0.15 target:self selector:@selector(buttonReset:) userInfo:sender repeats: NO];
 }
 
+// Added by Mark H. Shin.  Copyright © 2022 telemark software®
 - (void)buttonReset:(NSTimer *)keyTimer
 {
 	// Get sender (button id) parameter
@@ -93,18 +96,21 @@
 	keyTimer = nil;
 }
 
+// Added by Mark H. Shin.  Copyright © 2022 telemark software®
 - (IBAction)keyClickToggle:(id)sender
 {
 	simulator.keyClick = !simulator.keyClick;
 	[sender setState:simulator.keyClick];
 }
 
+// Added by Mark H. Shin.  Copyright © 2022 telemark software®
 - (IBAction)displayBlinkToggle:(id)sender
 {
 	simulator.displayBlink = !simulator.displayBlink;
 	[sender setState:simulator.displayBlink];
 }
 
+// Added by Mark H. Shin.  Copyright © 2022 telemark software®
 - (IBAction)contrastPlus:(id)sender
 {
 	simulator.display.contrast -= 1;
@@ -117,6 +123,7 @@
 	}
 }
 
+// Added by Mark H. Shin.  Copyright © 2022 telemark software®
 - (IBAction)contrastMinus:(id)sender
 {
 	simulator.display.contrast += 1;
