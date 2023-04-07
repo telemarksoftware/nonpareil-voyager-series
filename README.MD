@@ -87,7 +87,7 @@ Xcode XIB user interface, Cocoa Framework with Objective-C and C languages.
 
 The first time the calculator is run, you will need to turn it on using the ON button.  "Pr Error" should be displayed indicating continous memory has been reset.  Subsequent restarts will load continous memory and state.
 
-Input via the numeric keypad is supported.
+Input via the keyboard & numeric keypad combinations are supported.
 ```
 The 'O' key can be used as the ON key.
 The 'O' + ',' key can be used to toggle digit separator.
